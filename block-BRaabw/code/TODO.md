@@ -19,4 +19,6 @@ You will find all the information you will need to work on this project in the `
 - User can see the total amount
 - User can add multiple products and same product multiple times
 
-## [DEMO APP](https://react-shopping-cart-67954.firebaseapp.com/)
+## DEMO
+
+[App Demo](https://ac-cart.vercel.app/)
