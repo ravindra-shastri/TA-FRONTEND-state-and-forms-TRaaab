@@ -1,13 +1,10 @@
-## Page Sidebar With Multiple Menu
+## Movie App
 
-Create a page that has sidebar and main body.
+Create a movie list app
 
-- The default state of sidebar is visible
-- In sidebar there is a button to `Hide` the sidebar.
-- When clicked on the button the sidebar closes.
-- Once closed the button in footer will be changed to "Show"
-- When clicked on that the sidebar will be visible
-
-## App UI
-
-![Page Sidebar](./assets/sidebar.png)
+- Display a list of movies using the `data.json` file
+- The list of movie will display an image, title, released date
+- When you hover over a single movie it will show two button `More Info`
+- When you click on `More Info` it will open a modal all the information about the movie
+- Show all the information you can display from the `data.json` file
+- The modal will have a `cross` icon when clicked the modal will close
