@@ -1,0 +1,79 @@
+@import url('./reset.css');
+
+/* Custom Styles */
+html{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: rgb(231,254,255);
+}
+
+section{
+    padding: 1.25rem;
+    border-bottom: 2px dashed black;
+}
+
+h1, h2, h3, h4, div{
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin:2rem auto;
+    margin-bottom: -1rem;
+}
+
+div{
+    margin: 2rem auto;
+}
+#root{
+    margin: 0 auto;
+}
+
+.steps{
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 1rem;
+    background-color: rgb(10, 10, 92);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.active{
+    background-color:rgb(1, 183, 255);
+}
+
+.func{
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color:rgb(48,186,103);
+    border-radius: .25rem;
+    border-color: green;
+    border-radius: .25rem;
+    color: white;
+    font-size: 1.6rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
