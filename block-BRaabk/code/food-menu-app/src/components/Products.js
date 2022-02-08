@@ -28,14 +28,15 @@ class Products extends React.Component {
 
 let dishes= [];
 if(!this.state.active){
-    dishes = [...data];
+    dishes = data;
 }else{
-    data.forEach(item=>{
-        console.log(this.state.active, item.category);
-        if(item.category === this.state.active)
-           dishes.push(item);
-          
-    });
+    // data.forEach(item=>{
+    //     console.log(this.state.active, item.category);
+    //     if(item.category === this.state.active)
+    //        dishes.push(item);
+    // });
+
+    dishes = data.filter(item => item.category === this.state.active);
 }
 
     return (
@@ -50,15 +51,9 @@ if(!this.state.active){
   }
      </ul>
 
-      <div className="cont flex justify-start align-start align-c-start flex-wrap">
-        {dishes.map((dish) => {
-          return (
-            
-              <Product key={dish.id} details={dish} />
-           
-          );
-        })}
-         </div>
+    <div className="cont flex justify-start align-start align-c-start flex-wrap">
+        {dishes.map((dish) => <Product key={dish.id} details={dish} />)}
+    </div>
       </>
     );
   }
