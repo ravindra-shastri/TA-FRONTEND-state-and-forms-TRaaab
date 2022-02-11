@@ -10,6 +10,7 @@ class Showfont extends React.Component {
       inputText: "",
     }
   }
+
   handleChange = (event) => { this.setState({ inputText: event.target.value }) };
 
   render() {
@@ -22,7 +23,6 @@ class Showfont extends React.Component {
         </div>
         <Showfonts text={this.state.inputText} />
       </>
-
     )
   }
 }
