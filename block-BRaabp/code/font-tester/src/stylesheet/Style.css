@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+Custom Styles
+body {
+  background-color: rgb(88, 88, 88);
+}
+
+main {
+  width: 40%;
+  margin: 4rem auto;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 3rem;
+  color: red;
+  font-style: italic;
+  text-shadow: 3px 3px 3px aqua;
+}
+
+.input-container {
+  display:flex;
+  justify-content: center;
+  margin: 2rem;
+
+}
+
+input {
+  width: 34rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  border: 3px solid blue;
+  text-align: center;
+  
+}
+
+.font-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+.font-display-box {
+  width:20rem;
+  height:16rem;
+  border: 2px solid red;
+  display: inline-block;
+  margin: 1rem;
+  color: rgb(13, 63, 13);
+  font-size: 1.6rem;
+  font-weight:600;
+  border-radius: .5rem;
+  text-align: center;
+  
+}
