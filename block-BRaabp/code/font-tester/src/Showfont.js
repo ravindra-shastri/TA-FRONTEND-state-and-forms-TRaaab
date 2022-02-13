@@ -11,6 +11,7 @@ class Showfont extends React.Component {
     }
   }
 
+  
   handleChange = (event) => 
   { this.setState({ inputText: event.target.value })};
 
