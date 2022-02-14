@@ -21,13 +21,13 @@ class Shipping extends React.Component {
     let error = this.state.error;
     error.addressText = (name === "addressText") &&
       (value.length < 8) ? `You need to enter at-least 8` : '';
+    this.setState({ error, [name]: value });
   }
 
 
-  handleCheck = ({target }) => {
+  handleCheck = ({ target }) => {
     let { name, checked } = target;
-    let error = this.state.error;
-    error.checked = ([name] === "checked");
+    this.setState({ [name]: checked });
   }
 
   render() {
@@ -60,7 +60,7 @@ class Shipping extends React.Component {
               <fieldset>
                 <h2>Billing Address</h2>
                 <div>
-                  <input type="checkbox" id="checkbox" name="checkbox" />
+                  <input type="checkbox" id="checkbox" name="checkbox" onChange={this.handleCheck} />
                   <span>Same as the Shipping Address ?</span>
                 </div>
 
