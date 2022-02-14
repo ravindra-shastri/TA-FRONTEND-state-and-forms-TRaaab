@@ -4,6 +4,7 @@ import "./style.css";
 function App() {
     return (
         <>
+        <div>Learn react link</div>
         <Formone />
         <main>
             <h2>Form With Validations</h2>
