@@ -5,9 +5,6 @@ import FormHeader from './FormHeader';
 class Step2 extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-
-    }
   }
   render() {
     if (this.props.currentStep !== 2) {
@@ -15,11 +12,11 @@ class Step2 extends React.Component {
     }
     return (
       <>
-
         <div className="flex">
           <div>
             <aside>
-              <img className="aside-img" src="./images/p2.jpg" alt="" />
+              <img className="aside-img" src="./images/p2.jpg" alt=""
+              />
             </aside>
           </div>
           <div>
@@ -29,25 +26,36 @@ class Step2 extends React.Component {
               <form>
                 <fieldset>
                   <div>
-                    <label htmlFor='message'>Message</label>
+                    <label htmlFor='message'>
+                      Message
+                    </label>
                   </div>
-
-                  <textarea name="message" rows="15" cols="60" id="message"
-                    value={this.props.message} onChange={this.props.handleChange} />
-
+                  <textarea
+                    name="message"
+                    rows="15"
+                    cols="60"
+                    id="message"
+                    value={this.props.message}
+                    onChange={this.props.handleChange}
+                  />
                   <div>
-
                     <label htmlFor="choiceOne">
-                      <input type="radio" checked name="choice" id="choiceOne" />
+                      <input
+                        type="radio"
+                        checked name="choice"
+                        id="choiceOne"
+                      />
                       The Number one choice
                     </label>
-
                     <label htmlFor="choiceTwo">
-                      <input type="radio" name="choice" id="choiceTwo" />
+                      <input
+                        type="radio"
+                        name="choice"
+                        id="choiceTwo"
+                      />
                       The Number two choice
                     </label>
                   </div>
-
                 </fieldset>
               </form>
             </div>
@@ -55,7 +63,6 @@ class Step2 extends React.Component {
         </div>
         <hr />
       </>
-
     )
   }
 }

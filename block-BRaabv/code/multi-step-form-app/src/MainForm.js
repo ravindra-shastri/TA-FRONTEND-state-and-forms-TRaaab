@@ -52,17 +52,15 @@ class MainForm extends React.Component {
     });
   }
 
-
-  get previousButton() {
+  get backButton() {
     let currentStep = this.state.currentStep;
     if (currentStep !== 1) {
       return (
         <button
-          className=""
           type="button"
           onClick={this._prev}
         >
-          Previous
+          Back
         </button>
       );
     }
@@ -75,7 +73,6 @@ class MainForm extends React.Component {
     if (currentStep < 3) {
       return (
         <button
-          className=""
           type="button"
           onClick={this._next}
         >
@@ -83,7 +80,6 @@ class MainForm extends React.Component {
         </button>
       );
     }
-
     return null;
   }
 
@@ -119,7 +115,7 @@ class MainForm extends React.Component {
               />
             }
             {this.nextButton}
-            {this.previousButton}
+            {this.backButton}
           </form>
         </div>
       </>
