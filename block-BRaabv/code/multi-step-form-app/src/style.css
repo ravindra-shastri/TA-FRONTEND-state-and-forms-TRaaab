@@ -1,0 +1,84 @@
+body{
+  max-width: 800px;
+  display: flex;
+
+}
+
+.aside-img{
+  /* width:16rem; */
+  height: 33rem;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+.check-img{
+  width:6rem;
+  height: 5rem;
+  padding: 2px;
+  margin-right: 1rem;
+  border-radius: .5rem;
+}
+nav{
+  margin-right: 1rem;
+}
+fieldset{
+  padding: 4rem;
+  border: none;
+}
+label{
+  font-weight: 500;
+}
+  
+input{
+  padding: .8rem 2.8rem;
+  margin: 1rem;
+  border-color: rgb(155, 155, 255);
+  border-radius: .5rem;
+}
+.address{
+  padding: 1rem 12rem;
+}
+
+button{
+  float: right;
+  padding: .5rem 1rem;
+  background-color: rgb(102, 102, 200);
+  color: white;
+  font-weight: 800;
+  font-size:1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+.submit-btn{
+  margin: 1rem;
+  background-color: rgb(97, 97, 192);
+}
+
+.flex{
+  display: flex;
+}
+
+.image-radio { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.image-radio + img {
+  cursor: pointer;
+}
+
+.image-radio:checked + img {
+  outline: 2px solid #f00;
+}
+p{
+  font-weight: 500;
+}
+
+.active {
+  background-color:rgb(128, 128, 202);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px;
+}
