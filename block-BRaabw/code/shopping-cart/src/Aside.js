@@ -40,6 +40,7 @@ class Aside extends React.Component {
     let allSizes = this.aside(this.props.data);
     return (
       <>
+      
         <aside className="side">
           <div className="size-btn">
             {allSizes.map((size, index) => <button className={this.state.selectedSize.includes(size) ? 'active' : ''} onClick={() => this.handleSize(size)}>{size}</button>)}
