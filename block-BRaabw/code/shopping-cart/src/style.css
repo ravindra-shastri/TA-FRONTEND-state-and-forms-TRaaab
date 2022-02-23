@@ -1,0 +1,99 @@
+body{
+  max-width:100%;
+
+}
+.header{
+float: right;
+}
+.cart-btn {
+  position: absolute;
+  top: 0;
+}
+.cart-img{
+  width: 5rem;
+  height: 3rem;
+  margin-top:-4rem;
+  background-color:rgb(19, 18, 18);
+  padding: 1.2rem;
+  border-radius: .5rem;
+}
+
+.side{
+  margin-left:2rem;
+}
+
+.size-btn{
+  width:8rem;
+  height: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  color:black;
+}
+
+.size-btn button{
+  border-radius: 2rem;
+  border:none;
+  margin-right: 8px;
+  margin-top: 10px;
+  padding: 11px;
+  background-color: rgb(224, 224, 224);
+}
+.prod-container{
+  display: flex;
+  
+}
+.drop{
+  display: inline-block;
+  position: relative;
+  margin-right: 5rem;
+  padding: 1rem 8rem;
+}
+.drop-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
+}
+.drop-box p{
+  margin-left: 10rem;
+}
+.select-drop{
+  padding: .6rem 1.2rem;
+}
+.free-ship{
+  background-color:black;
+  color:white;
+  padding: .2rem .6rem;
+  margin: 0 8rem;
+  border-radius: .4rem;
+}
+.all-products{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.img-container {
+  width: 22rem;
+  height: 12rem;
+}
+
+.img-total{
+  width: 13rem;
+  height: 12rem;
+  margin-right: 3rem;
+  
+}
+.price-container{
+  margin: 2rem 3rem;
+  padding-bottom: 2rem;
+}
+
+.add-cart{
+  background-color:black;
+  color:white;
+  font-weight: 600;
+  padding:.5rem 1rem;
+  border-radius: .4rem;
+}
+
