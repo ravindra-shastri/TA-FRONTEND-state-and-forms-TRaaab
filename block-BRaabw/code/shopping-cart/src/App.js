@@ -11,8 +11,7 @@ class App extends React.Component {
     return (
       <>
         <div>
-          
-          <Main/>
+          <Main />
         </div>
       </>
     )
