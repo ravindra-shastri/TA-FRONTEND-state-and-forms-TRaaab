@@ -1,24 +1,99 @@
 body{
   max-width:100%;
-
 }
-.header{
-float: right;
-}
-.cart-btn {
+ .heading, .cart-icon {
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color:grey;
   position: absolute;
   top: 0;
+  right: 0;
+  color: aqua;
+  font-size: 1.5rem;
+  font-weight:600;
+} 
+h5{
+  text-align: center;
+  font-size: 2rem;
+  background-color:rgb(41, 39, 39);
+  padding: 1rem;
+  border-radius:.5rem;
 }
-.cart-img{
-  width: 5rem;
-  height: 3rem;
-  margin-top:-4rem;
-  background-color:rgb(19, 18, 18);
-  padding: 1.2rem;
-  border-radius: .5rem;
+.hr {
+  border-color: rgb(151, 151, 151);
 }
 
-.side{
+.cart-item {
+  display: flex;
+  color: #fff;
+  font-size: 18px;
+  align-items: flex-start;
+}
+
+.cart-item h4 {
+  margin: 1rem 0;
+}
+
+.cart-item-img {
+  height: 100px;
+  width: 100px;
+  margin-right: 1rem;
+  border-radius: .4rem;
+}
+
+.cart-btn {
+  color: black;
+  background-color:white;
+}
+
+.cart-img{
+  width: 4rem;
+  height: 4rem;
+}
+.crt-ttl{
+  color: rgb(218, 204, 204);
+  font-size: 14px;
+}
+.show-price{
+  margin: 1rem 1.5rem;
+  color:yellow;
+}
+.inc-btn {
+  font-size:1rem;
+  font-weight: 600;
+  margin: 1.2rem .2rem;
+}
+.dec-btn{
+  font-size:1rem;
+  font-weight: 600;
+}
+.ttl-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.total-btn{
+  padding: .8rem 6rem ;
+  margin: 1rem;
+  border-radius: .5rem;
+  font-size:1rem;
+  font-weight: 600;
+  background-color:rgb(102, 101, 101);
+  color:#fff;
+  border:none;
+}
+.total-amt{
+  margin-left: 4rem;
+  color:greenyellow;
+}
+.check-btn{
+  background-color:rgb(51, 51, 51);
+  color: white;
+  font-weight: 600;
+  padding: 1rem 11.5rem;
+  border-radius:.5rem;
+}
+
+.size-container{
   margin-left:2rem;
 }
 
@@ -36,7 +111,14 @@ float: right;
   margin-right: 8px;
   margin-top: 10px;
   padding: 11px;
-  background-color: rgb(224, 224, 224);
+  border:2px solid aqua;
+}
+.active{
+  color:aqua;
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-style: italic; 
+  background-color:rgb(210, 140, 170);
 }
 .prod-container{
   display: flex;
@@ -68,11 +150,8 @@ float: right;
 }
 .all-products{
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
-
-
 .img-container {
   width: 22rem;
   height: 12rem;
@@ -81,8 +160,7 @@ float: right;
 .img-total{
   width: 13rem;
   height: 12rem;
-  margin-right: 3rem;
-  
+  margin-right: 3rem;  
 }
 .price-container{
   margin: 2rem 3rem;

@@ -5,13 +5,11 @@ class Aside extends React.Component {
     super(props);
     this.state = {
       selectedSize: [],
-      // selected:[]
     }
 
   }
 
   handleSize = (size) => {
-    // const selected = event.target.value;
     const index = this.state.selectedSize.indexOf(size);
     const allSizes = this.state.selectedSize;
     if (index >= 0) {
@@ -21,11 +19,9 @@ class Aside extends React.Component {
     } else {
       // Add new size to selectedSize
       allSizes.push(size);
-      this.setState({ selectedSize: allSizes});
-      // allSizes = ;
+      this.setState({ selectedSize: allSizes });
     }
-    
-    
+    this.props.setSelectedSize(allSizes);
   };
 
 
@@ -33,17 +29,22 @@ class Aside extends React.Component {
     return data.reduce((acc, cv) => {
       acc.push(cv.availableSizes);
       return acc;
-    }, []).flat(Infinity).filter((value, index, arr) => arr.indexOf(value) === index);
+    }, []).flat(Infinity).filter((value, index, arr) =>
+      arr.indexOf(value) === index);
   }
 
   render() {
     let allSizes = this.aside(this.props.data);
     return (
       <>
-      
-        <aside className="side">
+        <aside className="size-container">
           <div className="size-btn">
-            {allSizes.map((size, index) => <button className={this.state.selectedSize.includes(size) ? 'active' : ''} onClick={() => this.handleSize(size)}>{size}</button>)}
+            {allSizes.map((size, index) =>
+              <button
+                className={this.state.selectedSize.includes(size) ? 'active' : ''}
+                onClick={() => this.handleSize(size)}>
+                {size}
+              </button>)}
           </div>
         </aside>
       </>
