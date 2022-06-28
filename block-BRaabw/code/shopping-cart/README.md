@@ -10,13 +10,17 @@ You will find all the information you will need to work on this project in the `
 
 #### Features
 
-- Users can select multiple sizes based on
-  the filtered products visible .
+- Users can select multiple sizes at one time based on
+  the filtered products will be visible .
   
-- Users can also sort the data from
-lowest to highest and highest to lowest
+- Users can also sort the data by
+  lowest to highest and highest to lowest
 
-- Users can see the total amount
+-User can click on the add to cart button once clicked the product will be added
+
+-User can see the total amount
+
+-User can add multiple products and same product multiple times
 
 ## Build/Run
 
