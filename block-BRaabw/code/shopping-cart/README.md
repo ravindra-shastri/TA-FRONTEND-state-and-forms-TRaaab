@@ -5,14 +5,18 @@
 This is a simple shopping cart app.
 
 # Getting Started with Create React App
-You will find all the information you will need to work on this project in the `src` folder.
+You will find all the information you will need to work on this project in the `code/shopping-cart/src` folder.
 - `data.json` contains the collection of information about the producrts
- - `public/static` contains all the images you will need for this project
 
 #### Features
 
-- Add and remove products from the cart
-- Filter products by available sizes 
+- Users can select multiple sizes based on
+  the filtered products visible .
+  
+- Users can also sort the data from
+lowest to highest and highest to lowest
+
+- Users can see the total amount
 
 ## Build/Run
 
