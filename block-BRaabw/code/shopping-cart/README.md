@@ -1,4 +1,70 @@
-## [Live Demo](https://react-shopping-cart-beta.vercel.app/)
+<!-- ## [Live Demo](https://react-shopping-cart-beta.vercel.app/) -->
+<!-- ## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)] -->
+
+##[Live Demo](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
+
+<p align="center">
+
+  <img src="./readme-banner.png">
+</p>
+
+This simple shopping cart prototype shows how React with Typescript, React hooks, react Context and Styled Components can be used to build a friendly user experience with instant visual updates and scaleable code in ecommerce applications.
+
+#### Features
+
+- Add and remove products from the floating cart using Context Api
+- Filter products by available sizes using Context Api
+- Responsive design
+
+<!--
+## Getting started
+
+Try playing with the code on CodeSandbox :)
+
+[![Edit app](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/74rykw70qq)
+ -->
+
+## Build/Run
+
+#### Requirements
+
+- Node.js
+- NPM
+
+```javascript
+
+/* First, Install the needed packages */
+npm install
+
+/* Then start the React app */
+npm start
+
+/* To run the tests */
+npm run test
+
+```
+
+### Copyright and license
+
+The MIT License (MIT). Please see License File for more information.
+
+<br/>
+<br/>
+
+<p align="center"><img src="http://www.jeffersonribeiro.com/assets/img/apple-icon-180x180.png" width="35" height="35"/></p>
+<p align="center">
+<sub>A little project by <a href="http://www.jeffersonribeiro.com/">Jefferson Ribeiro</a></sub>
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 You will find all the information you will need to work on this project in the `src` folder.
@@ -52,37 +118,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
